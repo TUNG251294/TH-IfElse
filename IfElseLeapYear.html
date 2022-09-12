@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var Year = parseInt(prompt("Enter a year"));
+    if (Year % 4 == 0) {
+        if (Year % 100 == 0) {
+            if (Year % 400 == 0) {
+                alert(Year + " is a leap year");
+            } else {
+                alert(Year + " is NOT a leap year");
+            }
+        } else {
+            alert(Year + " is a leap year");
+        }
+    } else {
+        alert(Year + " is NOT a leap year");
+    }
+</script>
+</body>
+</html>
